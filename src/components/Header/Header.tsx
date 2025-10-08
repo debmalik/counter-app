@@ -11,12 +11,14 @@ const Header = () => {
 					<h1
 						className="text-2xl font-semibold"
 						aria-label="App Name">
-						NST App
+						Counter-App
 					</h1>
 				</Link>
 
 				<nav className="flex items-center gap-4">
 					<Link href={"/"}>Home</Link>
+					<Link href={"/advanced"}>Advanced</Link>
+					<Link href={"/expert"}>Expert</Link>
 
 					<ThemeToggleButton />
 				</nav>
